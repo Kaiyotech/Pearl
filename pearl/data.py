@@ -54,26 +54,25 @@ BIG_BOOST_RESPAWN_TIME = 10
 class PlayerData(Enum):
     IGNORE = 0  # Whether to mask out this player with attention
     MASK = 1  # Whether the data is masked out (e.g. everything else set to 0)
-    AGE = 2  # The time since this player was last updated
-    TEAM = 3  # -1 for blue, +1 for orange
-    POS_X = 4
-    POS_Y = 5
-    POS_Z = 6
-    VEL_X = 7
-    VEL_Y = 8
-    VEL_Z = 9
-    FW_X = 10
-    FW_Y = 11
-    FW_Z = 12
-    UP_X = 13
-    UP_Y = 14
-    UP_Z = 15
-    ANG_VEL_X = 16
-    ANG_VEL_Y = 17
-    ANG_VEL_Z = 18
-    BOOST_AMOUNT = 19
-    IS_DEMOED = 20
-    RESPAWN_TIMER = 21
+    TEAM = 2  # -1 for blue, +1 for orange
+    POS_X = 3
+    POS_Y = 4
+    POS_Z = 5
+    VEL_X = 6
+    VEL_Y = 7
+    VEL_Z = 8
+    FW_X = 9
+    FW_Y = 10
+    FW_Z = 11
+    UP_X = 12
+    UP_Y = 13
+    UP_Z = 14
+    ANG_VEL_X = 15
+    ANG_VEL_Y = 16
+    ANG_VEL_Z = 17
+    BOOST_AMOUNT = 18
+    IS_DEMOED = 19
+    RESPAWN_TIMER = 20
     # TODO consider adding jump/dodge/handbrake info
 
 
